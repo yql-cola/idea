@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/01-springboot-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="352">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -62,8 +62,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
-    <option name="y" value="86" />
+    <option name="x" value="565" />
+    <option name="y" value="58" />
     <option name="width" value="1400" />
     <option name="height" value="992" />
   </component>
@@ -81,7 +81,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544503287853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544503995494" />
     <property name="last_opened_file_path" value="D:/git/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,7 +173,7 @@
       <workItem from="1544161598834" duration="1937000" />
       <workItem from="1544244459079" duration="1195000" />
       <workItem from="1544428333009" duration="5559000" />
-      <workItem from="1544502352439" duration="931000" />
+      <workItem from="1544502352439" duration="1638000" />
     </task>
     <task id="LOCAL-00001" summary="托尔斯泰">
       <created>1544502484265</created>
@@ -196,28 +196,35 @@
       <option name="project" value="LOCAL" />
       <updated>1544502807390</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="托尔斯泰">
+      <created>1544503317557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544503317557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10615000" />
+    <option name="totallyTimeSpent" value="11322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="86" width="1400" height="992" extended-state="0" />
+    <frame x="830" y="36" width="1400" height="992" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" x="1106" y="112" width="335" height="867" id="Project" order="5" visible="true" weight="0.17910448" />
+      <window_info content_ui="combo" x="1106" y="112" width="335" height="867" id="Project" order="5" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.3297362" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49925372" weight="0.3297362" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32853717" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="4" sideWeight="0.50074625" side_tool="true" visible="true" weight="0.32853717" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" />
@@ -270,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/01-springboot-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="352">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
