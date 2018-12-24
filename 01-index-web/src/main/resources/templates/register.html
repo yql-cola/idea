@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>注册界面</title>
+</head>
+<body>
+
+	<form action="/user/register" method="post">
+		<table border="1" bordercolor="#0000ff" cellpadding=30 cellspacing=0 width=1000 height=600>
+			<tr>
+				<th colspan="2">注册表单：</th>
+			</tr>
+			<tr>
+				<td>用户名称：</td>
+				<td><input type="text" th:value="${user?.username}" name="username" /></td>
+			</tr>
+			<tr>
+				<td>输入密码：</td>
+				<td><input type="password" th:value="${user?.password} name="password"/></td>
+			</tr>
+			<tr>
+				<td>输入年龄：</td>
+				<td><input type="text" th:value="${user?.age} name="age"/></td>
+			</tr>
+			<tr>
+				<td>选择性别：</td>
+				<td>
+					<input type="radio"  name="sex" value="man"/>男
+					<input type="radio" name="sex" value="woman"/>女
+				</td>
+			</tr>
+			<tr>
+				<td>电话：</td>
+				<td><input type="text" th:value="${user?.phone}" name="phone"></td>
+			</tr>
+
+			<tr>
+				<td>邮箱</td>
+				<td><input type="text" th:value="${user?.email}" name="email"/></td>
+			</tr>
+			<tr>
+				<td>选择职业：</td>
+				<td>
+					<input type="checkbox" name="job" value="java"/>JAVA
+					<input type="checkbox" name="job" value="html"/>HTML
+					<input type="checkbox" name="job" value="css"/>CSS
+				</td>
+			</tr>
+
+
+			<tr>
+				<td>选择国家：</td>
+				<td>
+					<select name="country">
+						<option value="none" >
+							--选择国家--
+						</option>
+						<option value="cn" selected="selected">
+							中国
+						</option>
+						<option value="usa">
+							美国
+						</option>
+						<option value="jp">
+							日本
+						</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="reset" value="清除数据"/>
+					<input type="submit" value="提交数据" />
+				</th>
+			</tr>
+		</table>
+	</form>
+    <p th:text="${error}"/>
+</body>
+</html>

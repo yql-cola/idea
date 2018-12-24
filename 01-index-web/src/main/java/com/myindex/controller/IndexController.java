@@ -11,6 +11,7 @@ public class IndexController {
     public String Myindex(){
         return "index.html";
     }
+
     @RequestMapping("test1")
     public String admin_login(){
         return "admin_login.html";
